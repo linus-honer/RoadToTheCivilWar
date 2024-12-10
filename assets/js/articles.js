@@ -65,7 +65,7 @@ jQuery(document).ready(function($){
 					$('body,html').scrollTop(self.element.offset().top);
 					self.projectTitle.attr('style', '');
 					//update the url to main page
-					window.history.pushState({path: 'index.html'},'', 'index.html');
+					window.history.pushState({path: 'articles.html'},'', 'articles.html');
 				});
 			}
 		});
