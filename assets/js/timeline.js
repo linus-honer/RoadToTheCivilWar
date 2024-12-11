@@ -173,6 +173,10 @@ jQuery(document).ready(function($){
 		}
 	});
 
+    $(window).on('click', function(){
+		(!window.requestAnimationFrame) ? setTimeout(checkResize, 250) : window.requestAnimationFrame(checkResize);
+	});
+
 	function checkResize(){
 		portfolios3D.forEach(function(element){
 			//update transform values on resize
