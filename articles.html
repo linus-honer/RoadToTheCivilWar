@@ -10,15 +10,130 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/articles.css">
     <link rel="stylesheet" href="assets/css/project.css">
-
-    <script src="js/modernizr.js"></script>
+    <link rel="stylesheet" href="assets/css/navigation.css">
 
     <title>Articles | Road to the Civil War</title>
 </head>
 <body>
-    <main class="cd-image-mask-effect">
+
+    <header class="cd-morph-dropdown">
+        <a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
+
+        <nav class="main-nav">
+            <ul>
+                <li class="has-dropdown gallery" data-content="about">
+                    <a href="about.html">About</a>
+                </li>
+
+                <li class="has-dropdown links" data-content="people">
+                    <a href="articles.html">People</a>
+                </li>
+
+                <li class="has-dropdown button" data-content="timeline">
+                    <a href="timeline.html">Timeline</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="morph-dropdown-wrapper">
+            <div class="dropdown-list">
+                <ul>
+                    <li id="about" class="dropdown gallery">
+                        <a href="about.html" class="label">About</a>
+
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <a href="#0">
+                                        <em>Title here</em>
+                                        <span>A brief description</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#0">
+                                        <em>Title here</em>
+                                        <span>A brief description</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#0">
+                                        <em>Title here</em>
+                                        <span>A brief description</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#0">
+                                        <em>Title here</em>
+                                        <span>A brief description</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li id="people" class="dropdown links">
+                        <a href="articles.html" class="label">People</a>
+
+                        <div class="content">
+                            <ul>
+                                <li>
+									<h2>Anti-Slavery</h2>
+
+									<ul class="links-list">
+										<li><a href="#0"></a></li>
+									</ul>
+								</li>
+
+								<li>
+									<h2>Pro-Slavery</h2>
+
+									<ul class="links-list">
+                                        <li><a href="project-1.html">Nicholas Trist</a></li>
+										<li><a href="project-3.html">George Fitzhugh</a></li>
+                                        <li><a href="project-4.html">James Murray Madison</a></li>
+									</ul>
+								</li>
+
+                                <li>
+									<h2>Neither</h2>
+
+									<ul class="links-list">
+										<li><a href="project-2.html">John Jacob Astor</a></li>
+									</ul>
+								</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li id="timeline" class="dropdown button">
+						<a href="timeline.html" class="label">Timeline</a>
+						
+						<div class="content">	
+							<ul class="links-list">
+								<li><a href="#0">Link #1</a></li>
+								<li><a href="#0">Link #2</a></li>
+								<li><a href="#0">Link #3</a></li>
+								<li><a href="#0">Link #4</a></li>
+								<li><a href="#0">Link #5</a></li>
+								<li><a href="#0">Link #6</a></li>
+							</ul>
+
+							<a href="#0" class="btn">Get in Touch</a>
+						</div>
+					</li>
+                </ul>
+
+                <div class="bg-layer" aria-hidden="true"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="cd-image-mask-effect cd-main-content">
         <section class="project-1 cd-project-mask">
-            <h1>Article 1</h1>
+            <h1>Nicholas Trist</h1>
             <div class="featured-image"></div>
             <div class="mask">
                 <img src="assets/images/mask/mask-01.png" alt="mask">
@@ -40,7 +155,7 @@
         </section>
 
         <section class="project-2 cd-project-mask">
-            <h1>Article 2</h1>
+            <h1>John Jacob Astor</h1>
             <div class="featured-image"></div>
             <div class="mask">
                 <img src="assets/images/mask/mask-02.png" alt="mask">
@@ -62,7 +177,7 @@
         </section>
 
         <section class="project-3 cd-project-mask">
-            <h1>Article 3</h1>
+            <h1>George Fitzhugh</h1>
             <div class="featured-image"></div>
             <div class="mask">
                 <img src="assets/images/mask/mask-03.png" alt="mask">
@@ -84,7 +199,7 @@
         </section>
 
         <section class="project-4 cd-project-mask dark-bg">
-            <h1>Article 4</h1>
+            <h1>James Murray Mason</h1>
             <div class="featured-image"></div>
             <div class="mask">
                 <img src="assets/images/mask/mask-04.png" alt="mask">
@@ -106,7 +221,7 @@
         </section>
 
         <section class="project-5 cd-project-mask dark-bg">
-            <h1>Article 5</h1>
+            <h1>Charles Sumner</h1>
             <div class="featured-image"></div>
             <div class="mask">
                 <img src="assets/images/mask/mask-05.png" alt="mask">
@@ -132,7 +247,9 @@
     <script>
         if( !window.jQuery ) document.write('<script src="assets/js/jquery-3.0.0.min.js"><\/script>');
     </script>
+    <script src="assets/js/navigation.js"></script>
     <script src="assets/js/articles.js"></script>
     <script src="assets/js/image-gallery.js"></script>
+    <script src="assets/js/modernizr-custom.js"></script>
 </body>
 </html>

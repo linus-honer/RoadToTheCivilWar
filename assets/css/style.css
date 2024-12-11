@@ -4,7 +4,7 @@ Primary style
 
 -------------------------------- */
 *, *::after, *::before {
-    box-sizing: border-box;
+    box-sizing: inherit;
   }
   
   html {
@@ -35,4 +35,83 @@ Primary style
     white-space: nowrap;
     text-indent: 100%;
     overflow: hidden;
+  }
+
+  .text-center {
+    text-align: center
+  }
+
+  .text-left {
+    text-align: left
+  }
+  
+  .text-right {
+    text-align: right
+  }
+
+  .flex {
+    display: -ms-flexbox;
+    display: flex
+  }
+  
+  .inline-flex {
+    display: -ms-inline-flexbox;
+    display: inline-flex
+  }
+  
+  .flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+  }
+  
+  .flex-column {
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+  
+  .flex-row {
+    -ms-flex-direction: row;
+    flex-direction: row
+  }
+  
+  .flex-center {
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+
+  .justify-start {
+    -ms-flex-pack: start;
+    justify-content: flex-start
+  }
+  
+  .justify-end {
+    -ms-flex-pack: end;
+    justify-content: flex-end
+  }
+  
+  .justify-center {
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+  
+  .justify-between {
+    -ms-flex-pack: justify;
+    justify-content: space-between
+  }
+
+  .items-center {
+    -ms-flex-align: center;
+    align-items: center
+  }
+  
+  .items-start {
+    -ms-flex-align: start;
+    align-items: flex-start
+  }
+  
+  .items-end {
+    -ms-flex-align: end;
+    align-items: flex-end
   }

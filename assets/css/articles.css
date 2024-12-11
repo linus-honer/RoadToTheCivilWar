@@ -68,7 +68,7 @@ Main Components
           transform: translateX(-50%) translateY(-50%);
   height: 100%;
   width: 100%;
-  background: url(../img/img-01.jpg) no-repeat center center;
+  background: url(../images/hero/img-01.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -372,7 +372,7 @@ Main Components
 }
 
 .cd-project-mask.project-1 .featured-image {
-  background-image: url(../images/hero/img-01.jpg);
+  background-image: url(../images/hero/Nicholas-Trist.jpg);
 }
 
 .cd-project-mask.project-2 {
@@ -384,7 +384,7 @@ Main Components
 }
 
 .cd-project-mask.project-2 .featured-image {
-  background-image: url(../images/hero/img-02.jpg);
+  background-image: url(../images/hero/Astor.jpg);
 }
 
 .cd-project-mask.project-3 {
@@ -396,7 +396,7 @@ Main Components
 }
 
 .cd-project-mask.project-3 .featured-image {
-  background-image: url(../images/hero/img-03.jpg);
+  background-image: url(../images/hero/Fitzhugh.jpg);
 }
 
 .cd-project-mask.project-4 {
@@ -408,7 +408,7 @@ Main Components
 }
 
 .cd-project-mask.project-4 .featured-image {
-  background-image: url(../images/hero/img-04.jpg);
+  background-image: url(../images/hero/James-Mason.jpg);
 }
 
 .cd-project-mask.project-5 {
@@ -420,7 +420,7 @@ Main Components
 }
 
 .cd-project-mask.project-5 .featured-image {
-  background-image: url(../images/hero/img-05.jpg);
+  background-image: url(../images/hero/Sumner.jpg);
 }
 
 .cd-scroll {

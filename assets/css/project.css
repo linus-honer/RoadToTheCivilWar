@@ -3,21 +3,21 @@
 Main Components 
 
 -------------------------------- */
-header {
+.project-selected header {
     height: 170px;
     line-height: 170px;
     text-align: center;
     background: #513e5d;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-    header h1 {
+    .project-selected header h1 {
       font-size: 2rem;
       color: #ffffff; }
     @media only screen and (min-width: 768px) {
-      header {
+      .project-selected header {
         height: 200px;
         line-height: 200px; }
-        header h1 {
+        .project-selected header h1 {
           font-size: 2.6rem; } }
   
   .cd-single-item {

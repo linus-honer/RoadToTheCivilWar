@@ -1,0 +1,27 @@
+
+.cd-section {
+    padding: 2em 5%;
+    text-align: center;
+    background-color: #03bb91;
+  }
+  .cd-section p {
+    margin: 2em 0;
+    line-height: 1.6;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @media only screen and (min-width: 768px) {
+    .cd-section {
+      padding: 4em 10%;
+    }
+    .cd-section p {
+      font-size: 1.8rem;
+      line-height: 2;
+    }
+  }
+  @media only screen and (min-width: 1170px) {
+    .cd-section {
+      padding: 4em 20%;
+    }
+  }

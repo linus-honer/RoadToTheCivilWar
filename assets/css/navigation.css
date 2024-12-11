@@ -7,6 +7,7 @@
     position: relative;
     height: 60px;
     background-color: #FFFFFF;
+    z-index: 5;
   }
   .cd-morph-dropdown::before {
     /* never visible - used in JS to check mq */
