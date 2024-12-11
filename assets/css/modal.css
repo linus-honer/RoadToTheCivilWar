@@ -68,12 +68,12 @@
   .cd-modal-action {
     position: relative;
   }
-  .cd-modal-action .btn, .cd-modal-action .cd-modal-bg {
+  .cd-modal-action .m-btn, .cd-modal-action .cd-modal-bg {
     display: inline-block;
     height: 4em;
     background-color: #34383c;
   }
-  .cd-modal-action .btn {
+  .cd-modal-action .m-btn {
     width: 12.5em;
     border-radius: 5em;
     color: #ffffff;
@@ -86,7 +86,7 @@
     -moz-transition: color 0.2s 0.3s, width 0.3s 0s;
     transition: color 0.2s 0.3s, width 0.3s 0s;
   }
-  .cd-modal-action .btn.to-circle {
+  .cd-modal-action .m-btn.to-circle {
     width: 4em;
     color: transparent;
     -webkit-transition: color 0.2s 0s, width 0.3s 0.2s;

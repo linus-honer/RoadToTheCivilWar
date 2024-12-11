@@ -286,7 +286,13 @@ Main Components
         top: 0;
         right: 0;
         padding: 60px 60px 0;
-        margin: 0; } }
+        margin: 0; 
+        -webkit-transform: translateX(10%);
+        -moz-transform: translateX(10%);
+        -ms-transform: translateX(10%);
+        -o-transform: translateX(10%);
+        transform: translateX(10%);
+      } }
   
   .cd-content p {
     width: 90%;

@@ -429,3 +429,40 @@
       padding-top: 80px;
     }
   }
+
+
+
+
+  .fancy-buttons a,
+  .fancy-buttons .btn {
+    display: block;
+    margin-left: 14px;
+    font-size: 2.2rem;
+    line-height: 1.6;
+  }
+  .fancy-buttons a:hover,
+  .fancy-buttons .btn:hover {
+    color: #1A1A1A;
+  }
+
+    .fancy-buttons a {
+      font-size: 1.6rem;
+      margin-left: 0;
+    }
+    .fancy-buttons .btn {
+      display: block;
+      width: 20%;
+      height: 60px;
+      margin: 1.5em 0 0;
+      font-size: 1.8rem;
+      text-align: center;
+      color: #FFFFFF;
+      line-height: 60px;
+      background: #DB6356;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .fancy-buttons .btn:hover {
+      background: #1A1A1A;
+      color: #FFFFFF;
+    }
