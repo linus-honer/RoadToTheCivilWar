@@ -20,6 +20,8 @@ jQuery(document).ready(function($){
 	}
 
 	Portfolio3D.prototype.bindEvents = function() {
+		console.log("Binded Events");
+
 		var self = this;
 
 		this.navigation.on('click', 'a:not(.selected)', function(event){
