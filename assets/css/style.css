@@ -115,3 +115,11 @@ Primary style
     -ms-flex-align: end;
     align-items: flex-end
   }
+
+  .cd-bib p {
+    color: aliceblue;
+    line-height: 2;
+    padding: 10px;
+    margin: 2em;
+    margin-bottom: 1em;
+  }
