@@ -426,6 +426,15 @@
     line-height: 1.6;
     color: #694d59;
   }
+  .cd-3d-portfolio .projects .project-content .cd-image {
+    position: inherit;
+    max-width: 40%;
+    line-height: 1.6;
+    color: #694d59;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+  }
   .cd-3d-portfolio .projects.project-has-transition .row > li {
     /* the project-has-transition class is used to add a transition to the tranform property of the single projects - it's added when a project is selected (before opening it) and removed when a project is colsed (when the closing animation is finished) */
     -webkit-transition: opacity 0s 0.6s, -webkit-transform 0.6s cubic-bezier(0.5, 0, 0.1, 1);
