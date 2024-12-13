@@ -372,7 +372,7 @@ Main Components
 }
 
 .cd-project-mask.project-1 .featured-image {
-  background-image: url(../images/hero/Nicholas-Trist.jpg);
+  background-image: url(../images/hero/Astor.jpg);
 }
 
 .cd-project-mask.project-2 {
@@ -384,7 +384,7 @@ Main Components
 }
 
 .cd-project-mask.project-2 .featured-image {
-  background-image: url(../images/hero/Astor.jpg);
+  background-image: url(../images/hero/James-Mason.jpg);
 }
 
 .cd-project-mask.project-3 {
@@ -396,7 +396,7 @@ Main Components
 }
 
 .cd-project-mask.project-3 .featured-image {
-  background-image: url(../images/hero/Fitzhugh.jpg);
+  background-image: url(../images/hero/);
 }
 
 .cd-project-mask.project-4 {
@@ -408,7 +408,7 @@ Main Components
 }
 
 .cd-project-mask.project-4 .featured-image {
-  background-image: url(../images/hero/James-Mason.jpg);
+  background-image: url(../images/hero/Sumner.jpg);
 }
 
 .cd-project-mask.project-5 {
@@ -544,4 +544,14 @@ Keyframes
     -webkit-transform: translateY(10px) translateX(-50%);
             transform: translateY(10px) translateX(-50%);
   }
+}
+
+.cd-left-image {
+  position: inherit;
+  max-width: 40%;
+  line-height: 1.6;
+  color: #694d59;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: left;
 }
